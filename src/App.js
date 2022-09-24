@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BrowserRouter,Switch,Route } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './pages/home/';
 import Header from './components/header/';
 import { ToastContainer } from 'react-toastify';

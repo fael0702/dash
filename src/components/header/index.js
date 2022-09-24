@@ -1,14 +1,11 @@
 
-import React,{ useEffect,useState } from 'react';
+import React,{ useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 const Header=() => {
-    const [activeTab,setActiveTab]=useState("Home");
     const location=useLocation();
     useEffect(() => {
-        if(location.pathname==="/") {
-            setActiveTab("Home");
-        }
+
     },[location]);
     return (
         <div className="header">
